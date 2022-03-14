@@ -1,0 +1,23 @@
+{
+	"name": "08-websocket-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"keywords": [],
+	"author": "Francisco GSilva <javiergonzalezsilva@gmail.com> (http://franciscogsilva.com/)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/franciscogsilva/node-course-expert-2021/tree/main/08-websocket-server"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.2",
+		"express-validator": "^6.14.0",
+		"socket.io": "^4.4.1"
+	}
+}
